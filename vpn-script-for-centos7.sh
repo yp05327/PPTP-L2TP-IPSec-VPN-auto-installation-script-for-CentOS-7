@@ -339,10 +339,10 @@ ms-dns 8.8.8.8
 ms-dns 8.8.4.4
 asyncmap 0
 auth
-crtscts
-lock
+#crtscts
+#lock
 hide-password
-modem
+#modem
 debug
 name l2tpd
 proxyarp
