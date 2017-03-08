@@ -70,7 +70,7 @@ if [[ -n "$iprangetmp" ]]; then
 fi
 
 #设置预共享密钥
-mypsk="ueibo.cn"
+mypsk="psk"
 echo "Please input PSK:"
 printf "(Default PSK: \e[33mueibo.cn\e[0m): "
 read mypsktmp
@@ -79,7 +79,7 @@ if [[ -n "$mypsktmp" ]]; then
 fi
 
 #设置VPN用户名
-username="ueibo.com"
+username="l2tp"
 echo "Please input VPN username:"
 printf "(Default VPN username: \e[33mueibo.com\e[0m): "
 read usernametmp
